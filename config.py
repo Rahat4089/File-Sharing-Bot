@@ -11,11 +11,11 @@ API_HASH = os.environ.get("API_HASH", "6df11147cbec7d62a323f0f498c8c03a")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "7125341830"))
-DB_URL = os.environ.get("DB_URL", "")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://animepahe:animepahe@animepahe.o8zgy.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DB_NAME", "genzfile")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002922086475"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1003106713401"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002845746606"))
 
@@ -68,7 +68,6 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6848088376)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -96,8 +95,3 @@ def LOGGER(name: str) -> logging.Logger:
 
 
 
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
