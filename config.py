@@ -15,7 +15,7 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://animepahe:animepahe@animepahe.o
 DB_NAME = os.environ.get("DB_NAME", "genzfile")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002922086475"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003139927613"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1003106713401"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002845746606"))
 
